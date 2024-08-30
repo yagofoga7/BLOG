@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+nav{
+    background-color: rgba(27, 54, 165, 0.552);
+    display: flex;
+    height: 100px;
+}
+
+section{
+    background-color: blue;
+    height: calc(100vh - 146px);
+}
+
+aside{
+    background-color: aquamarine;
+    width: 300px;
+    height: 100%;
+}
+
+footer{
+    background-color: black;
+    height: 30px;
+}
